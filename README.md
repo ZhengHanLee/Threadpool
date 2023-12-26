@@ -1,6 +1,6 @@
-This is a simple C library for creating and managing a thread pool. The library provides functionality to submit fork/join tasks to the thread pool and obtain the results through futures. Each worker will take a task from a global list of tasks to execute them concurrently. Mutex locks are used to signal conditionals for task procession and allow each thread to be utilized efficiently.
+This is a simple C implementation for creating and managing a thread pool. The implementation provides functionality to submit fork/join tasks to the thread pool and obtain the results through futures. Each worker will take a task from a global list of tasks to execute them concurrently. Mutex locks are used to signal conditionals for task procession and allow each thread to be utilized efficiently.
 
-The library consists of the following main components:
+The code in threadpool.c consists of the following main components:
 
     Thread Pool: Represents a pool of threads that can execute fork/join tasks concurrently.
 
